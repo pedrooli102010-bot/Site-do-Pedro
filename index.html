@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Tédio</title>
+        <title>Tédio V2</title>
         <style>
             header{
                 text-align: center;
@@ -11,7 +11,8 @@
                 border: 10px solid royalblue;
                 border-radius: 7px;
                 padding: 20px;
-                margin: 10px;
+                margin: 10px auto;
+                width: 50%;
             }
             nav{
                 text-align: left;
@@ -20,6 +21,14 @@
                 border-radius: 7px;
                 padding: 15px;
                 margin: 5px 0px;
+            }
+            article{
+                background-color: wheat;
+                width: 50%;
+                margin: 10px auto;
+                border: 10px solid rgb(212, 192, 153);
+                border-radius: 7px;
+                padding: 20px;
             }
             .pagina{
                 background-color: white;
@@ -31,12 +40,15 @@
             .pagina:hover{
                 background-color: rgb(235, 235, 235);
             }
-            a{
-                color: black;
+            div.escritura{
+                background-color: white;
+                padding: 5px 10px;
+                border: none;
+                border-radius: 7px;
             }
         </style>
     </head>
-    <body>
+    <body style="background-color: black;">
         <header>
             <h1>
                 Olá, Bem-Vindo ao meu Site!
@@ -44,9 +56,20 @@
             <b>Assuntos variados</b>
             <nav>
                 <button class="pagina">
-                    <a href="html/tomar.html">Curiosidade</a>
+                    <a style="color: black;" href="html/tomar.html">Curiosidade</a>
                 </button>
             </nav>
         </header>
+        <article>
+            <h1>
+                Merda Nenhuma
+            </h1>
+            <div class="escritura">
+                <h2>
+                    Ideias
+                </h2>
+                <p>Se tiver Ideia do que devo por aqui, só me procurar</p>
+            </div>
+        </article>
     </body>
 </html>
